@@ -51,8 +51,8 @@ Note that you might need to enter your password in order to proceed.
 You can deploy the full stack application using the deployment script:
 
 ```bash
-export AWS_DEFAULT_REGION=<your preferred region, i.e. us-east-1>
-export STACK_NAME=<a unique name for your CloudFormation stack>
+export AWS_DEFAULT_REGION=ap-northeast-1
+export STACK_NAME=serverless-app-todo-202011291700
 ./deploy.sh
 ```
 
